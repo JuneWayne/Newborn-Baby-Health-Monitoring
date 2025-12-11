@@ -45,6 +45,14 @@ The data has been preprocessed to remove potential label leakage, handle missing
 │   └── Final_Test_Evaluation.ipynb       # Final model evaluation on test set
 │
 ├── output/                                # Trained models and evaluation results
+│   ├── Infant_mortality_distribution.png  # Distribution of infant mortality (0 vs 1)
+│   ├── Maternal_Demographics.png          # Visualization of maternal demographic variables
+│   ├── Birth_Characterstics.png           # Birth characteristics visualization
+│   ├── Prenatal_Pregnancy_Factors.png     # Prenatal and pregnancy-related factors
+│   ├── Medical_Risk_Factors.png           # Medical risk factor distributions
+│   ├── Congential_Anomalies.png           # Distribution of congenital anomalies
+│   ├── Interventions.png                  # Medical interventions visualized
+│   ├── Correlation_Heatmap_of_Top_Infant_Mortality_Predictors.png  # Heatmap of top predictors
 │   ├── best_mlp_infant_mortality.pt      # Best performing neural network model
 │   ├── svm_best_model.joblib             # Optimized SVM model
 │   ├── svm_gridsearch.joblib             # SVM grid search results
@@ -57,7 +65,7 @@ The data has been preprocessed to remove potential label leakage, handle missing
 │   ├── Positive_case_accuracy.png        # Positive case detection accuracy
 │   ├── neural_network_loss.png           # Neural network training loss curves
 │   └── overfitting.jpg                   # Overfitting analysis visualization
-│
+│  
 └── env/                                   # Python virtual environment
 ```
 
